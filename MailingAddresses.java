@@ -18,14 +18,14 @@ public class MailingAddresses {
 		dos = new Address();
 		dos.street	= "3029 Losh Lane";
 		dos.city	= "Crafton";
-		dos.state	= "PA"
+		dos.state	= "PA";
 		dos.zip		= 15205;
 		
 		tres = new Address();
 		tres.street	= "2693 Hannah Street";
 		tres.city	= "Hickory";
 		tres.state	= "NC";
-		tres.zip	= "28601;
+		tres.zip	= 28601;
 		
 		System.out.println(uno.street);
 		System.out.println(uno.city + ", " + uno.state + " " + uno.zip);
@@ -34,5 +34,4 @@ public class MailingAddresses {
 		System.out.println("\n" + tres.street);
 		System.out.println(tres.city + ", " + tres.state + " " + tres.zip);
 	}
-}
 }
